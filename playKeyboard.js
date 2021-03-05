@@ -355,6 +355,7 @@ function playKeyboard() {
     }
   }
 
+  //button functions
   function switchSound() {
     selectSound = {
       value: "2",
@@ -373,4 +374,9 @@ function playKeyboard() {
   });
   window.addEventListener("keydown", fnPlayKeyboard);
   window.addEventListener("keyup", fnRemoveKeyBinding);
+
+  //make sure textbox is capturing input no matter what button is pressed
+  window.addEventListener("click", function () {
+    document.querySelector(".textbox").focus();
+  });
 }

@@ -36,14 +36,16 @@ body {
   height: 400px;
   width: 80vw;
   max-width: 1120px;
-  margin: 250px auto;
+  margin: 20px auto;
   padding: 5px;
+  border: none;
   background-color: rgb(247, 241, 234);
 }
 .butts {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 200px;
 }
 button {
   background-color: black;
