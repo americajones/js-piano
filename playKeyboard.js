@@ -244,7 +244,7 @@ function playKeyboard() {
           "</b>" +
           "<br /><br />" +
           n.substr(0, 1) +
-          '<span name="OCTAVE_LABEL" value="' +
+          '<span class="OCTAVE_LABEL" value="' +
           i +
           '">' +
           (__octave + parseInt(i)) +

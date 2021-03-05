@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: monospace;
   height: 98vh;
   background-color: rgb(70, 90, 90);
   background-image: url("https://americajones.github.io/art-portfolio/assets/images/image6.png");
@@ -35,9 +36,9 @@ body {
 .textbox {
   height: 400px;
   width: 80vw;
-  max-width: 1120px;
+  max-width: 1100px;
   margin: 20px auto;
-  padding: 5px;
+  padding: 10px;
   border: none;
   background-color: rgb(247, 241, 234);
 }
@@ -53,4 +54,14 @@ button {
   border: none;
   padding: 6px 10px;
   margin: 0 5px;
+}
+span.OCTAVE_LABEL {
+  display: none;
+}
+.keyLabel {
+  color: gray;
+  opacity: 80%;
+}
+.label {
+  padding: 3px;
 }
