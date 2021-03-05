@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>piano keyboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="audiosynth.js"></script>
+    <script src="playKeyboard.js"></script>
+  </head>
+  <body>
+    <div class="butts">
+      <button id="piano">piano</button>
+      <button id="change">acoustic</button>
+    </div>
+    <div id="keyboard" class="keyboard-box"></div>
+    <textarea
+      autofocus="true"
+      class="textbox"
+      placeholder="start typing some tunes"
+    ></textarea>
+    <script type="text/javascript">
+      playKeyboard();
+    </script>
+  </body>
+</html>
